@@ -39,6 +39,8 @@
 			}
 
 		body {
+			width: 90%;
+			height: 100%;
 			background-color: #FFC4D0;
 
 			}
@@ -252,7 +254,42 @@
         color: #7D001C;
         
     }
-    
+
+   .flex-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; 
+
+ 
+}
+
+.flex-item {
+  background: white;
+  padding: 15px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 190px;
+  
+  line-height: 150px;
+  color: 
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#titulos
+    	 {
+        background-color: white;
+        color: #7D001C;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
 
 	</style>
 	<body>
@@ -323,44 +360,36 @@ Ella comenzó su carrera con el video musical de "explosión", que ganó el éxi
 <BR>
 <br>
 <br>
-<div style="display: inline-block;" id="discos" class="contenedor" > <strong>
-	<div class="box1">
-	IMMACULATE CONCEPTION
-	<br>
-	<img id="disco0" src="disco0.jpg" width="300" height="300" > 
+<div class="flex-container" id="container" style="display: inline-block;" id="discos" class="contenedor" > <strong>
+	<ul class="flex-container">
+	<div class="1">
+	<p id="titulos"> IMMACULATE CONCEPTION </p>
+	 <li class="flex-item"> <img id="disco0" src="disco0.jpg" width="300" height="300" > 
 	</div>
-	<br>
 	<div class="2">
-	EXPLOSION
-	<br>
-	<img id="disco1" src="disco1.jpg" width="300" height="300" > 
-	</div>
-	<br>
+	<p id="titulos"> EXPLOSION </p>
+	 <li class="flex-item"> <img id="disco1" src="disco1.jpg" width="300" height="300" > 
+	</div></li>
 	<div class="3">
-	TRUTH TEA
-	<br>
-	<img id="disco2" src="disco2.jpg" width="300" height="300" > 
-	</div>
-	<br>
+	<p id="titulos"> TRUTH TEA </p>
+	 <li class="flex-item"> <img id="disco2" src="disco2.jpg" width="300" height="300" > 
+	</div></li>
 	<div class="4">
-	SHUT UP AND CRY
-	<br>
-	<img id="disco3" src="disco3.jpg" width="300" height="300" > 
-	</div>
-	<br>	
+	<p id="titulos"> SHUT UP AND CRY </p>
+	 <li class="flex-item"> <img id="disco3" src="disco3.jpg" width="300" height="300" > 
+	</div></li>	
 	<div>
-	BLACK MAGIC
-	<br>
-	<img id="disco4" src="disco4.jpg" width="300" height="300" > 
-	</div>
-	<br>
+	<p id="titulos"> BLACK MAGIC </p>
+	 <li class="flex-item"> <img id="disco4" src="disco4.jpg" width="300" height="300" > 
+	</div></li>
 	<div>
-	COME HOME WITH ME
-	<br>
-	<img id="disco5" src="disco5.jpg" width="300" height="300" > 
-	</div>
+	<p id="titulos"> COME HOME WITH ME </p>
+	 <li class="flex-item"> <img id="disco5" src="disco5.jpg" width="300" height="300" > 
+	</div></li>
+	</ul>
 	</strong>
 </div>
+<br>
 <br>
  <b> <h2 id="GALERIA"> G|A|L|E|R|I|A  </h2> </b> 
 <br>
